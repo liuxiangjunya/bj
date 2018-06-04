@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.gwidth{
+	width: 968px;
+	margin: 0 auto;
+}
+body{
+	background: #ECF9F1;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+.biaoti h1{
+	display: none;
+}
+
+
+.top{
+	width: 100%;
+	height: 191px;
+	background: url('images/wt.png');
+}
+.top .wenzi{
+	height: 191px;
+	background: url('images/wt1.png');
+}
+
+
+.daohang{
+	width: 100%;
+	height: 38px;
+	background: #4CACF8;
+}
+.daohang .ul li{
+	float: left;
+	line-height: 38px;
+}
+.daohang .ul li a{
+	color: #FFF;
+}
+
+
+.shen{
+	height: 82px;
+	box-shadow:0px 0px  2px #E3E3E3;
+	background: #F6F6F6;
+}
+.shen p{
+	line-height:30px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 26px;
+}
+
+
+.neirong{
+	background: #FFF;
+	height: 666px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 2px #DDE9E2;
+}
+.neirong .ti{
+}
+.neirong  .tabs{
+	margin-left: -4px;
+	font-size: 16px;
+}
+.neirong  .tabs .active, .neirong .tabs li:hover{
+	border: 1px solid #FF9C71;
+}
+.neirong  .tabs li{
+	width: 232px;
+	height: 33px;
+	float: left;
+	border: 1px solid #4FACF6;
+	margin-left: 8px;
+	margin-top: 20px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 33px;
+	color: #38A5FB;
+}
+.neirong  .tabs .man{
+	color: #B9C0C5;
+	border: 1px solid #D1D1D1;
+}
+.neirong  .tabs span{
+	color: #FF0000;
+}
+
+
+.neirong  .nei button{
+	width: 123px;
+	height: 36px;
+	margin-left: 24px;
+	border: 1px solid #DBDBDB;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	background: #FFF;
+}
+.neirong  .nei .geren{
+	margin-left: -4px;
+}
+.neirong  .nei .ge,.neirong .nei button:hover{
+	background: #FFF;
+	border-bottom: none;
+	color: #4CACF8;
+}
+.neirong  .nei .xian{
+	width: 690px;
+	height: 1px;
+	background: #DBDBDB;
+	margin-left: 270px;
+	margin-top: -1px;
+}
+.neirong .nei .show{
+	width: 934px;
+	height: 486px;
+	margin-left: 24px;
+	border: 1px solid #DBDBDB;
+	border-radius: 0 0 5px 5px;
+	margin-top: -1px;
+	border-top: none;
+	line-height: 200px;
+}
+.neirong .nei .show p{
+	margin-left: 80px;
+}
+.neirong .nei .show .p1{
+	margin-top: -170px;
+}
+.neirong .nei .show .p1 a{
+	color: #4CACF8;
+}
+
+
+.booter{
+	height: 60px;
+	background: #FFF;
+	margin-top: 40px;
+}
+.booter span{
+	margin-left: 340px;
+	font-size: 12px;
+	color: #666;
+}
